@@ -1,0 +1,93 @@
+/* Basics */
+
+*{
+    margin:0;
+    padding:0
+
+}
+
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/* Container */
+
+.intro-title{
+    background-color:#49108B;
+
+
+}
+/* INTRO TITLE */
+.heading ul{
+   
+        list-style-type:none;
+        display:flex;
+    
+        font-size:17px;
+        font-weight:bolder;
+    
+        flex-direction:row;
+        align-items: center;
+       justify-content: space-between;
+       color:#e1c9ff;
+       padding:1.5%;
+    
+}
+
+.heading ul li div{
+    display: inline;
+    margin:10px;
+    transition: all;
+    transition-duration: 0.2s;
+}
+
+
+.image img{
+    width:150px;
+    margin-right:20%;
+    height:auto;
+}
+/* Heading */
+
+/* Note Main Title */
+
+.main-title{
+    display:flex;
+    flex-direction:column;
+    align-content: center;
+    justify-content: center;
+    margin-top:40px;
+}
+
+.main-title div{
+   text-align: center;
+   margin: 25px 0;
+}
+
+.note-heading{
+    font-size: 47px;
+    text-decoration: underline;
+    color:white;
+}
+
+.note-subheading{
+    color:white;
+    font-size:25px;
+
+}
+
+/* SVGs */
+.space{
+    position: relative;
+    top:10px;
+}
+.auto-scale-svg{
+    width:100%;
+    height: auto;
+}
+/* Animations */
+
+li div:hover{
+    cursor: pointer;
+    font-size:120%;
+    scale:120px;
+}
